@@ -23,6 +23,10 @@ Place `MHPSP.bin` in the newly created folder and copy the contents of the respe
  
 - Freedom (EUR) **cannot** load JP quests as it will crash. You must use the English translated quests.
 
+## Notes
+
+The external MHPSP.bin file is a simple concatenation of .mib quest files, each zero-padded to 0x6800 bytes in length.
+
 ## Credits
 
 - Special thanks to [IncognitoMan](https://github.com/IncognitoMan) and [Kurogami2134](https://github.com/Kurogami2134)
