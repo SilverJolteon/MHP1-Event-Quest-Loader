@@ -9,12 +9,17 @@ sceKernelDcacheWritebackInvalidateAll	equ	0x088B0E0C
 SLOT_1		equ	0x09509FE0
 SLOT_SIZE	equ	0x6800
 
+SLTI_V0_S3	equ	0x098EEFF4
+SLTI_V0_S1	equ 0x098F01AC
+
+RETURN_VALID	equ	0x098F0124
+RETURN_INVALID	equ 0x098F0118
+
 .createfile "./build/EventLoaderEUR.bin", 0x08802000 ; Free Memory
 	; Backup registers v0 and s0
 	addiu	sp, sp, -8
 	sw		s0, 0x4(sp)
 	sw		v0, 0x0(sp)
-	
 	; Open quests file
 	la		a0, QUESTS_BIN
 	li		a1, 0x1
@@ -26,6 +31,23 @@ SLOT_SIZE	equ	0x6800
 	nop
 	li 		v1, 0x0
 	move	s0, v0	
+	; Get number of pages
+	move 	a0, s0
+	li		a1, 0x0
+	li		a2, 0x0
+	li		a3, 0x0
+	jal		sceIoLseek ; Get file size
+	li		t0, 0x2
+	beq		v0, zero, NoFile ; Return - empty file 
+	li		a0, 0x6800
+	div		v0, a0
+	mflo	a0 ; Page num
+	li		t0, 0x2A620000
+	addu	t0, t0, a0
+	sw		t0, SLTI_V0_S3 ; slti v0,s3,pages
+	li		t0, 0x2A220000
+	addu	t0, t0, a0
+	sw		t0, SLTI_V0_S1 ; slti v0,s1,pages
 	; Correct offset to load quest
 	lw		a2, 0x0(sp)
 	li		t0, SLOT_1
@@ -37,8 +59,8 @@ SLOT_SIZE	equ	0x6800
 	mult	a2, t0
 	mflo	a2
 	; Seek to offset in file
-	move 	a0, s0 ; fd
-	li		a1, 0x0 ; whence
+	move 	a0, s0
+	li		a1, 0x0
 	li		a3, 0x0
 	jal		sceIoLseek
 	li		t0, 0x0
@@ -55,7 +77,7 @@ SLOT_SIZE	equ	0x6800
 	; Restore registers backup and return
 	jal		Restore
 	nop
-	j		0x098F0124 ; Jump back
+	j		RETURN_VALID ; Jump back
 	sw		v0, 0x7C(s0)
 	
 	Restore:
