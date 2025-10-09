@@ -21,7 +21,7 @@ Place `MHPSP.bin` in the newly created folder and copy the contents of the respe
   - Highlight the bottom-most option and press right on the D-Pad.
   - Press X to open the menu.
  
-- Freedom (EUR) **cannot** load JP quests, it will crash.
+- Freedom (EUR) **cannot** load JP quests as it will crash. You must use the English translated quests.
 
 ## Credits
 
