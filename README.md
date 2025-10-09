@@ -14,12 +14,14 @@ Create a new folder in `ms0:/PSP/SAVEDATA/` and name it one of the following, de
 
 - Freedom (EUR): `ULES00318QST`
 
-Place `MHPSP.bin` in the newly created folder and enable the respective cheat. Then, you can access the quests from the event quest menu in the gathering hall.
+Place `MHPSP.bin` in the newly created folder and copy the contents of the respective .ini to your cheats list. Then, you can access the quests from the event quest menu in the gathering hall.
 
 - For Freedom (USA and EUR), to access the quests, do the following:
   - Talk to the quest receptionist dressed in red.
   - Highlight the bottom-most option and press right on the D-Pad.
   - Press X to open the menu.
+ 
+- Freedom (EUR) **cannot** load JP quests, it will crash.
 
 ## Credits
 
