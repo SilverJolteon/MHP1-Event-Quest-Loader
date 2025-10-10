@@ -2,7 +2,7 @@
 
 Load all 19 MHP1 event quests directly from a single file, now with support for Freedom (USA and EUR).
 
-![Screenshot](/.github/screenshot.png?raw=true)
+![Screenshot](/.github/screenshot.png)
 
 ## Usage
 
@@ -30,4 +30,5 @@ The external MHPSP.bin file is a simple concatenation of .mib quest files, each 
 ## Credits
 
 - Special thanks to [IncognitoMan](https://github.com/IncognitoMan) and [Kurogami2134](https://github.com/Kurogami2134)
-- English quests translated by Anonymous
+- Freedom Enhanced by [YuzucchiNyan](https://github.com/GReinoso96)
+- English and Spanish quests translated by Anonymous
