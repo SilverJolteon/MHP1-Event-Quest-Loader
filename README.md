@@ -32,6 +32,6 @@ No patch for Freedom yet until I figure out the event quest menu.
 ## Credits
 
 - Special thanks to [IncognitoMan](https://github.com/IncognitoMan) and [Kurogami2134](https://github.com/Kurogami2134) for tips and their own ASM as a groundwork.
-- Special thanks as well to Immortalcripple for helping out with testing.
+- Special thanks as well to [Immortalcripple](https://github.com/Immortalcripple) for helping out with testing.
 - Freedom Enhanced by [YuzucchiNyan](https://github.com/GReinoso96)
 - English and Spanish quests translated by Anonymous
