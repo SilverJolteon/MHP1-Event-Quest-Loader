@@ -110,5 +110,4 @@ if __name__ == "__main__":
         shutil.rmtree(build_dir)
     os.makedirs(build_dir, exist_ok=True)
     generate("JPN", "EventLoaderJPN", 0x1A6AA0F8, "DATA_JPN.BIN", "EBOOT_JPN.BIN")
-    generate("JPN(Enhanced)", "EventLoaderJPN", 0x1A690000, "DATA_JPN_ENHANCED.BIN", "EBOOT_JPN_ENHANCED.BIN")
-    #generate("USA", "EventLoaderUSA", 0x1A2449C0, "DATA_USA.BIN", "EBOOT_USA.BIN")
+    generate("JPN_Enhanced", "EventLoaderJPN", 0x1A6AA0F8, "DATA_JPN_ENHANCED.BIN", "EBOOT_JPN_ENHANCED.BIN")
