@@ -1,6 +1,6 @@
-# Monster Hunter Portable Event Quest Loader
+# Monster Hunter Portable/Freedom Event Quest Loader
 
-Load all 19 MHP1 event quests directly from a single file, now with support for Freedom (USA and EUR).
+Load event quests directly from an external file, now with support for Freedom (USA and EUR).
 
 ![Screenshot](/.github/screenshot.png)
 
@@ -26,6 +26,8 @@ Place `MHPSP.bin` in the newly created folder and copy the contents of the respe
 ## Notes
 
 The external MHPSP.bin file is a simple concatenation of .mib quest files, each zero-padded to 0x6800 bytes in length.
+
+No patch for Freedom yet until I figure out the event quest menu.
 
 ## Credits
 
