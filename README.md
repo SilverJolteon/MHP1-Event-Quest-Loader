@@ -17,11 +17,9 @@ Create a new folder in `ms0:/PSP/SAVEDATA/` and name it one of the following, de
 Place `MHPSP.bin` in the newly created folder and copy the contents of the respective .ini to your cheats list. Then, you can access the quests from the event quest menu in the gathering hall.
 
 - For Freedom (USA and EUR), to access the quests, do the following:
-  - Talk to the quest receptionist dressed in red.
-  - Highlight the bottom-most option and press right on the D-Pad.
-  - Press X to open the menu.
+  - There is an invisible menu option below urgent quests in the gathering hall. Press X on it to open the event quests menu.
  
-- Freedom (EUR) **cannot** load JP quests as it will crash. You must use the English translated quests.
+- Freedom (EUR) **cannot** load JP quests as it will crash. You must use the English or Spanish translated quests.
 
 ## Notes
 
