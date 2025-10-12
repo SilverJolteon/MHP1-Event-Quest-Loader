@@ -14,7 +14,7 @@ Create a new folder in `ms0:/PSP/SAVEDATA/` and name it one of the following, de
 
 - Freedom (EUR): `ULES00318QST`
 
-Place `MHPSP.bin` in the newly created folder and copy the contents of the respective .ini to your cheats list. Then, you can access the quests from the event quest menu in the gathering hall.
+Place `MHPSP.bin` in the newly created folder and copy the contents of the respective .ini to your cheats list OR apply the ISO patch with [DeltaPatcher](https://www.romhacking.net/utilities/704/). Then, you can access the quests from the event quest menu in the gathering hall.
  
 - Freedom (EUR) **cannot** load JP quests as it will crash. You must use the English or Spanish translated quests.
 
