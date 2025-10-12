@@ -15,17 +15,21 @@ Create a new folder in `ms0:/PSP/SAVEDATA/` and name it one of the following, de
 - Freedom (EUR): `ULES00318QST`
 
 Place `MHPSP.bin` in the newly created folder and copy the contents of the respective .ini to your cheats list. Then, you can access the quests from the event quest menu in the gathering hall.
-
-- For Freedom (USA and EUR), to access the quests, do the following:
-  - There is an invisible menu option below urgent quests in the gathering hall. Press X on it to open the event quests menu.
  
 - Freedom (EUR) **cannot** load JP quests as it will crash. You must use the English or Spanish translated quests.
+
+## Monster Hunter Portable/Freedom DX
+- Includes the followng patches:
+  - Event Quest Loader
+  - Input Drop Fix - by YuzucchiNyan
+  - Hold to Gather - by YuzucchiNyan
+  - True Raw - EUR version by YuzucchiNyan, ported to JPN and USA
+  - Early Kill Lao-Shan Lung - Ported from IncognitoMan's FUC
+  - English Menu Patch (Portable) - by YuzucchiNyan
 
 ## Notes
 
 The external MHPSP.bin file is a simple concatenation of .mib quest files, each zero-padded to 0x6800 bytes in length.
-
-No patch for Freedom yet until I figure out the event quest menu.
 
 ## Credits
 
