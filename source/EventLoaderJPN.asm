@@ -16,7 +16,7 @@ RETURN_VALID	equ	0x098EE80C
 RETURN_INVALID	equ 0x098EE800
 
 
-.createfile "./build/EventLoaderJPN.bin", 0x08802000 ; Free Memory
+.createfile "./build/EventLoaderJPN.bin", 0x8802000
 	; Backup registers v0 and s0
 	addiu	sp, sp, -8
 	sw		s0, 0x4(sp)
