@@ -19,7 +19,7 @@ Place `MHPSP.bin` in the newly created folder and copy the contents of the respe
 - Freedom (EUR) **cannot** load JP quests as it will crash. You must use the English or Spanish translated quests.
 
 ## Monster Hunter Portable/Freedom DX (xdelta patch only)
-- Includes the followng patches:
+- Includes the following patches:
   - Event Quest Loader
   - Input Drop Fix - by YuzucchiNyan
   - Hold to Gather - by YuzucchiNyan
