@@ -149,8 +149,11 @@ EVENT_TXT_IT	equ 0x094CD533
 		beq		v0, t0, EventReturn
 	
 		; Get Language
+		li		t0, EVENT_TXT_EN
+		lwr		t1, 0x0(t0)
+		lwl		t1, 0x3(t0)
 		li		t0, 0x6E657645
-		lw		t1, EVENT_TXT_EN
+		
 		beq		t0, t1, LANG_EN
 		
 		li		t0, 0x756F7620

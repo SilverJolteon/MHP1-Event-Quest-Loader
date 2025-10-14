@@ -157,7 +157,7 @@ def generateCheat(name, v):
         file.close()
     elif v == "EventLoaderEUR":
         file = CwCheatIO(os.path.join(build_dir, name, "ULES00318.ini"))
-        file.write(f"Event Quest Loader v1.3 [EUR]")
+        file.write(f"Event Quest Loader v1.3.1 [EUR]")
         
         # Allow cursor to move one more position
         file.write(f"_L 0x210EF7C4 0x24460002\n")
