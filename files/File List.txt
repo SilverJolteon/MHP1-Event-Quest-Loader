@@ -1,0 +1,17 @@
+DATA_EUR.BIN                    MD5: 2a97c5a5a17696f7bd5402751015b0b6 ; Unmodified DATA.BIN
+DATA_EUR_DX.BIN                 MD5: 694b78ffc9a0b1d9d2adfcea4088b538
+DATA_JPN.BIN                    MD5: c73291c5e25ff23144369767bdc57ac0 ; Unmodified DATA.BIN
+DATA_JPN_DX.BIN                 MD5: 01d9ad87f557c3b6321a8b79a3b16dff
+DATA_USA.BIN                    MD5: 34a14a7c76764924d149606c609007f4 ; Unmodified DATA.BIN
+DATA_USA_DX.BIN                 MD5: bdb2da4e4d3903c406b26b36761363cb
+DATA_USA_ENHANCED.BIN           MD5: 7d20c60d4bc0670cdbf20a0cbeaaf7e8
+EBOOT_EUR.BIN                   MD5: bdfe0afd2e3968113c2ae38fc512a581 ; Unmodified, decrypted EBOOT.BIN
+EBOOT_EUR_DX.BIN                MD5: f69c6c1a615a208078b32e85c25a1b65
+EBOOT_JPN.BIN                   MD5: 6258022e306be4b29b771575f9a10c4a ; Unmodified, decrypted EBOOT.BIN
+EBOOT_JPN_DX.BIN                MD5: 44c718e69a783ebfe2ec86139e9bbc0b
+EBOOT_USA.BIN                   MD5: 7c82203c0560ceb48e64eed9dfccb687 ; Unmodified, decrypted EBOOT.BIN
+EBOOT_USA_DX.BIN                MD5: 556ee5aa0acfca10d403a11b77abf498
+EBOOT_USA_ENHANCED.BIN          MD5: 7c82203c0560ceb48e64eed9dfccb687
+EventLoaderEUR.iso              MD5: 03bb24c5b91ce6ca815b33c8d464beed ; Unmodified ISO
+EventLoaderJPN.iso              MD5: 64de03b9101204955771335c5bb618f3 ; Unmodified ISO
+EventLoaderUSA.iso              MD5: 7c29d81c4fc05002527ffe7dc95b2ba0 ; Unmodified ISO
