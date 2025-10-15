@@ -20,12 +20,13 @@ Place `MHPSP.bin` in the newly created folder and copy the contents of the respe
 
 ## Monster Hunter Portable/Freedom DX (xdelta patch only)
 - Includes the following patches:
-  - Event Quest Loader
+  - Event Quest Loader - by SilverJolteon
   - Input Drop Fix - by YuzucchiNyan
   - Hold to Gather - by YuzucchiNyan
   - True Raw - EUR version by YuzucchiNyan, ported to JPN and USA
   - Early Kill Lao-Shan Lung - Ported from IncognitoMan's FUC
   - English Menu Patch (Portable) - by YuzucchiNyan
+  - English (Non-Event) Quest Patch - by SilverJolteon
 
 ## Notes
 
