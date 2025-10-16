@@ -21,6 +21,8 @@ Place `MHPSP.bin` in the newly created folder and copy the contents of the respe
 
 # Monster Hunter Portable/Freedom DX
 
+<img src="/.github/logo.png" width="480px"/>
+
  ### [<ins>**Download Latest Release**</ins>](https://github.com/SilverJolteon/MHP1-Event-Quest-Loader/raw/main/DX/Portable-Freedom%20DX.zip)
 
 All-in-One patch that includes the following:
