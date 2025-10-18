@@ -178,7 +178,8 @@ def generateCheat(name, v):
         file.write(f"_L 0x21134244 0x008C0118\n")
         
         # Event Menu Hook
-        file.write(f"_L 0x210F33E4 0x0e200848\n")
+        file.write(f"_L 0xE1020021 0x010F33E0\n") # Condition check for EUR version
+        file.write(f"_L 0x210F33E4 0x0E200848\n")
         file.write(f"_L 0x210F33E8 0x00000000\n")
         
         file.write(f"_L 0x210f0110 0x0a200800\n") # lw v1,0x0(v0) -> j 0x08802000
@@ -257,4 +258,5 @@ if __name__ == "__main__":
     generate("EventLoaderUSA (DX)", "EventLoaderUSA", "DATA_USA_DX.BIN", "EBOOT_USA_DX.BIN")
     generate("EventLoaderEUR", "EventLoaderEUR", "DATA_EUR.BIN", "EBOOT_EUR.BIN")
     generate("EventLoaderEUR (DX)", "EventLoaderEUR", "DATA_EUR_DX.BIN", "EBOOT_EUR_DX.BIN")
+
         
